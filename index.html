@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Zone</title>
+    <!-- tailwind and daisy ui cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Abril Fatface and Inter Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome kit  -->
+    <script
+      src="https://kit.fontawesome.com/549d303daa.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom css classes  -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "color-black": "#121212",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .font-abril-fatface {
+        font-family: "Abril Fatface", cursive;
+      }
+      .font-inter {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container mx-auto flex items-center justify-between mt-12">
+        <div class="flex items-center">
+          <img src="images/carzone.png" alt="">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <div class="flex gap-12 list-none cursor-pointer font-medium text-lg text-black">
+          <li>HOME</li>
+          <li>NEW</li>
+          <li>USED</li>
+          <li>CAR DETAILS</li>
+          <li>PAGES</li>
+        </div>
+        <div class="flex items-center gap-8">
+            <i class="fa-regular fa-bell text-2xl cursor-pointer"></i>
+            <button class="btn btn-outline">Login</button>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
