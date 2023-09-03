@@ -31,6 +31,7 @@
             colors: {
               clifford: "#da373d",
               "color-black": "#121212",
+              "color-orange": "#FC621C",
             },
           },
         },
@@ -45,6 +46,7 @@
       }
     </style>
   </head>
+
   <body class="container mx-auto">
     <header>
       <!-- navbar section  -->
@@ -69,10 +71,10 @@
         <div class="hidden lg:block">
           <div class="flex items-center gap-8">
             <i
-              class="fa-regular fa-bell text-3xl text-orange-500 cursor-pointer"
+              class="fa-regular fa-bell text-3xl text-color-orange cursor-pointer"
             ></i>
             <button
-              class="btn btn-outline btn-xs sm:btn-sm md:btn-md lg:btn-lg"
+              class="btn btn-outline"
             >
               Login
             </button>
@@ -95,10 +97,10 @@
               <a>
                 <div class="flex items-center gap-8">
                   <i
-                    class="fa-regular fa-bell text-xl text-orange-500 cursor-pointer"
+                    class="fa-regular fa-bell text-xl text-color-orange cursor-pointer"
                   ></i>
                   <button
-                    class="btn btn-xs btn-outline sm:btn-sm md:btn-md lg:btn-lg"
+                    class="btn btn-outline btn-sm md:btn-md"
                   >
                     Login
                   </button>
@@ -108,6 +110,25 @@
           </ul>
         </div>
       </nav>
+      <!-- banner section TOP -->
+      <section class="lg:flex items-center justify-between mt-10 lg:mt-28">
+        <div class="text-5xl md:text-6xl lg:text-8xl text-center lg:text-left text-color-black font-abril-fatface mb-10 md:mb-16">
+          <h3>Best In Car</h3>
+          <h3 class="mt-4 lg:ml-28">Rental & Service</h3>
+        </div>
+        <div>
+          <img class="mx-auto" src="images/car1.png" alt="">
+        </div>
+      </section>
+      <!-- banner section BOTTOM  -->
+      <section class="flex flex-col-reverse lg:flex lg:flex-row items-center justify-between mt-10 lg:mt-12">
+        <div class="">
+          <img class="flex-1 lg:flex-none" src="images/girl1.png" alt="">
+        </div>
+        <div class="lg:flex-1 max-w-xl">
+          <p class="font-inter font-semibold text-lg mb-4 text-center">Welcome to Car Zone, your ultimate destination for car rentals and sales. Explore our wide range of vehicles and find the perfect ride for your journey. Start your car adventure today!</p>
+        </div>
+      </section>
     </header>
     <main></main>
     <footer></footer>
