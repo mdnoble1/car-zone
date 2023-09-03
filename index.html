@@ -222,26 +222,26 @@
     </header>
     <main>
       <!-- book and rent a car section  -->
-      <section class="container ml-auto mt-28 mb-28 lg:flex justify-between items-center">
+      <section class="lg:ml-40 mt-16 lg:mt-28 mb-16 lg:mb-28 lg:flex justify-between items-center">
         <!-- left part  -->
         <div>
           <!-- text content  -->
-          <div class="mb-16">
-            <h3 class="font-abril-fatface text-6xl text-color-black mb-4">Book And Rent A Car</h3>
-            <p class="font-inter text-lg max-w-xl">
+          <div class="mb-10 lg:mb-16">
+            <h3 class="font-abril-fatface text-5xl lg:text-6xl text-center lg:text-left text-color-black mb-4">Book And Rent A Car</h3>
+            <p class="font-inter text-center lg:text-left lg:text-lg max-w-xl mx-auto lg:mx-0">
               Easily book and rent a car with our simple online form. Provide
               your details, select your preferred vehicle, and enjoy a smooth,
               hassle-free reservation process at Car Zone.
             </p>
           </div>
           <!-- input field  -->
-          <div class="flex gap-10">
-            <div class="grid grid-cols-1 gap-10 w-80">
+          <div class="lg:flex gap-10">
+            <div class="grid grid-cols-1 gap-10 w-80 mb-10 lg:mb-0 mx-auto lg:mx-0">
               <input class="px-6 py-4 bg-slate-100 rounded-md" type="text" name="" id="" placeholder="Your Name..." />
               <input class="px-6 py-4 bg-slate-100 rounded-md" type="text" name="" id="" placeholder="Contact Number..." />
               <input class="px-6 py-4 bg-slate-100 rounded-md" type="text" name="" id="" placeholder="Pick Up Date..." />
             </div>
-            <div class="grid grid-cols-1 gap-10 w-80">
+            <div class="grid grid-cols-1 gap-10 w-80 mx-auto lg:mx-0">
               <input class="px-6 py-4 bg-slate-100 rounded-md" type="email" name="" id="" placeholder="Your Email..." />
               <div>
                 <div class="dropdown">
@@ -260,11 +260,13 @@
             </div>
           </div>
           <!-- book now button  -->
-          <button class="font-bold text-xl text-white bg-color-orange py-3 lg:px-10 rounded-md mt-10 hover:bg-opacity-50">Book Now!</button>
+          <div class="mt-10 flex justify-center mb-10">
+            <button class="font-bold text-xl text-white bg-color-orange py-3 px-6 lg:px-10 rounded-md hover:bg-opacity-50">Book Now!</button>
+          </div>
         </div>
         <!-- right part  -->
-        <div>
-          <img src="images/car5.png" alt="">
+        <div class="flex justify-center">
+          <img class="rounded-r-[33px] lg:rounded-r-[0px]" src="images/car5.png" alt="">
         </div>
       </section>
     </main>
